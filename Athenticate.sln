@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Athenticate", "Athenticate.csproj", "{77E7D8D8-EA78-478D-9DB6-DE7B2C2CFD39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Athenticate", "Athenticate.csproj", "{F89B3F98-89FA-421D-B5AF-300B8DF42646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77E7D8D8-EA78-478D-9DB6-DE7B2C2CFD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77E7D8D8-EA78-478D-9DB6-DE7B2C2CFD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77E7D8D8-EA78-478D-9DB6-DE7B2C2CFD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77E7D8D8-EA78-478D-9DB6-DE7B2C2CFD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89B3F98-89FA-421D-B5AF-300B8DF42646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89B3F98-89FA-421D-B5AF-300B8DF42646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89B3F98-89FA-421D-B5AF-300B8DF42646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89B3F98-89FA-421D-B5AF-300B8DF42646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C8FCA09F-644C-4144-A77F-85954E6C1556}
+		SolutionGuid = {57A84398-5D93-4D38-A011-5DCD885DF1C3}
 	EndGlobalSection
 EndGlobal
