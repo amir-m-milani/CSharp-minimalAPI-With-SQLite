@@ -9,6 +9,13 @@ RUN dotnet restore
 # Copy the rest of the application code
 COPY . .
 
+# Restore any tools (e.g., dotnet-ef)
+RUN dotnet tool restore
+
+# Run the EF Core migration to create the database schema
+RUN dotnet ef migrations add InitialCreate --context Athenticate.Database.DataContext
+RUN dotnet ef database update --context Athenticate.Database.DataContext
+
 # Publish the application
 RUN dotnet publish -c Release -o out
 
